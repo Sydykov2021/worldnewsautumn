@@ -97,7 +97,17 @@ new GFdynamicFeedControl(feed, "feedControl");
 google.load("feeds", "1");
 google.setonloadCallback(load);
 </script>
-	
+  <script type="text/javascript">
+	  document.addEventListener("DOMContentLoaded",function(){
+	document.querySelector("form").addEventListener("click",e => {
+		let checkboxCL = e.target.classList,
+			pState = "pristine";
+
+		if (checkboxCL.contains(pState))
+			checkboxCL.remove(pState);
+	});
+});
+	  </script>
   <script data-ad-client="ca-pub-4342048092732194" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <link href = "style.css" rel = "stylesheet" type = "text /css">
 </head>
