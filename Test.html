@@ -21,11 +21,11 @@ color: #9CADD0;
 <script type="text/javascript">
   console.clear();
 
-setTimeout(function(){
+  setTimeout(function(){
   document.querySelector('input[type="checkbox"]').setAttribute('checked',true);
-},100);
+ },100);
 
-var todoTemplate = function(id){ 
+ var todoTemplate = function(id){ 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 25" class="todo__icon">
     <defs>
       <mask id="myMask${id}" maskUnits="userSpaceOnUse" x="0" y="0">
