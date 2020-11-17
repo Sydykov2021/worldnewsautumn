@@ -1,7 +1,7 @@
 <DOCTYPE html>
 </html>
 <head>
-  <title>News Summer</title>
+  <title>News Winter</title>
   <script data-ad-client="ca-pub-4342048092732194" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <link href = "style.css" rel = "stylesheet" type = "text /css">
 </head>
@@ -12,7 +12,8 @@
    body{
      color:white;
      font-size:30px;
-     background-image: url(PicsArt_10-27-10.09.08.jpg);
+     background-image: url(IMG_20201117_204542_943-min.png);
+     background-attachment: fixed;
      }  
     .row:after {
     visibility: hidden;
