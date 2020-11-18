@@ -316,8 +316,8 @@ a.button7:active { background: white; }
   <div class="content">
     <div class="inner-content">
     <h2>Российский губернатор заразился коронавирусом и решил лечиться в частной клинике</h2>
+    <img src="photo_342468.jpeg" width=675px>
     <h3>    </h3>
-    </h3>
       </time>
       <div id="sigCommentsBlock"></div>
       <a href="http://sigcomments.com" style="font-size: 0.6em;"></a>
